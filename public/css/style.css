@@ -1,0 +1,71 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #003366;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between; /* Espaço entre logo, barra de pesquisa e menu */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  padding: 10px;
+}
+
+.header-bar .logo {
+  flex: 1;
+  text-align: left;
+}
+
+.header-bar .search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; /* Centraliza a barra de pesquisa */
+}
+
+.header-bar .search-bar input {
+  width: 300px;
+}
+
+.header-bar .search-bar button {
+  margin-left: 5px;
+  background-color: white;
+}
+
+.header-bar .user-menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-bar .user-menu img {
+  margin-right: 10px;
+}
+
+header .user-menu select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #003366;
+}
+
+footer p {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
